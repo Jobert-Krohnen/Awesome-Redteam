@@ -303,10 +303,13 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://forum.ywhack.com/bountytips.php?tools
 	- https://github.com/knownsec/404StarLink
 	- https://pentest-tools.com/
+- Beautifier：
+	- http://web.chacuo.net/formatsh
+	- https://beautifier.io/
+	- http://jsnice.org/
 - Online:
 	- 反弹 Shell: https://forum.ywhack.com/reverse-shell/
 	- 正则表达式: https://c.runoob.com/front-end/854/
-	- 代码格式标准化: http://web.chacuo.net/formatsh
 	- 接收验证码: https://www.supercloudsms.com/en/
 	- 临时邮箱: http://24mail.chacuo.net/
 	- 短链接生成: https://a.f8x.io/
@@ -396,11 +399,12 @@ Flask_Session_Decryptor: Flask session注入解密
 - Subdomain:
 	- https://github.com/projectdiscovery/subfinder
 	- https://github.com/knownsec/ksubdomain
-- URLs:
+- Web:
 	- https://github.com/pingc0y/URLFinder
 	- https://github.com/s0md3v/Arjun
 	- https://github.com/OJ/gobuster
 	- https://github.com/jaeles-project/gospider
+	- https://github.com/xmendez/wfuzz
 - Directory:
 	- https://github.com/maurosoria/dirsearch
 	- https://github.com/H4ckForJob/dirmap
@@ -410,7 +414,9 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/openwall/john
 	- https://github.com/hashcat/hashcat
 	- https://github.com/galkan/crowbar supports sshkey and openvpn
+	- https://github.com/evilsocket/legba/
 - Json web token (JWT):
+	- https://jwt.io/
 	- https://github.com/ticarpi/jwt_tool
 	- https://github.com/brendan-rius/c-jwt-cracker
 	- https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list
@@ -568,9 +574,14 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### 数据库 _Database_
 
-- RedisStudio: Redis 未授权 https://github.com/cinience/RedisStudio
-- redis-rogue-server: Redis 未授权 https://github.com/n0b0dyCN/redis-rogue-server
-- redis-rce: Redis 未授权 https://github.com/Ridter/redis-rce
+- Redis GUI Client:
+	- https://github.com/cinience/RedisStudio
+	- https://github.com/qishibo/AnotherRedisDesktopManager
+- Redis RCE:
+	- https://github.com/n0b0dyCN/redis-rogue-server
+	- https://github.com/Ridter/redis-rce
+	- https://github.com/yuyan-sec/RedisEXP
+	- https://github.com/r35tart/RedisWriteFile
 - MDUT: Multiple Database Utilization Tools https://github.com/SafeGroceryStore/MDUT
 - odat: Oracle RCE https://github.com/quentinhardy/odat
 
@@ -619,10 +630,11 @@ Flask_Session_Decryptor: Flask session注入解密
 	- Struts2VulsTools: https://github.com/shack2/Struts2VulsTools
 - Spring:
 	- SpringBoot-Scan: https://github.com/AabyssZG/SpringBoot-Scan
-	- Spring_All_Reachable: Spring Cloud Gateway命令执行 CVE-2022-22947、Spring Cloud Function SpEL 远程代码执行 CVE-2022-22963 https://github.com/savior-only/Spring_All_Reachable
+	- Spring_All_Reachable: CVE-2022-22947/CVE-2022-22963 https://github.com/savior-only/Spring_All_Reachable
 	- SpringBootVulExploit: https://github.com/LandGrey/SpringBootVulExploit
 	- Spring-cloud-function-SpEL-RCE: CVE-2022-22963 https://github.com/mamba-2021/EXP-POC/tree/main/Spring-cloud-function-SpEL-RCE
 	- swagger-exp: Swagger REST API 信息泄露利用工具 https://github.com/lijiejie/swagger-exp
+	- jasypt decrypt: https://www.devglan.com/online-tools/jasypt-online-encryption-decryption
 - Heapdump:
 	- heapdump_tool: heapdump敏感信息查询工具 https://github.com/wyzxxz/heapdump_tool
 	- Memory Analyzer: HeapDump分析工具 https://www.eclipse.org/mat/previousReleases.php
@@ -692,6 +704,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - PHP Generic Gadget Chains: PHP反序列化Payload https://github.com/ambionics/phpggc
 - PHPFuck: https://github.com/splitline/PHPFuck
 - JSFuck: http://www.jsfuck.com/
+- JavaScript Deobfuscator and Unpacker: https://lelinhtinh.github.io/de4js/
 - Gopherus: SSRF 生成gopher链接 https://github.com/tarunkant/Gopherus python2
 - CVE-2021-44228-PoC-log4j-bypass-words: https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
 
