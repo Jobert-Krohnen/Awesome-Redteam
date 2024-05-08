@@ -8,6 +8,7 @@
 
 ## 目录 _Contents_
 
+- [目录 _Contents_](#%E7%9B%AE%E5%BD%95-contents)
 - [项目导航 _Project Navigation_](#%E9%A1%B9%E7%9B%AE%E5%AF%BC%E8%88%AA-project-navigation)
 	- [速查文档 _CheatSheets_](#%E9%80%9F%E6%9F%A5%E6%96%87%E6%A1%A3-cheatsheets)
 	- [一些代码 _Scripts_](#%E4%B8%80%E4%BA%9B%E4%BB%A3%E7%A0%81-scripts)
@@ -33,6 +34,7 @@
 	- [社会工程学 _Social Engineering_](#%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6-social%C2%A0engineering)
 		- [凭据泄露 _Leaked Credentials_](#%E5%87%AD%E6%8D%AE%E6%B3%84%E9%9C%B2-leaked-credentials)
 		- [邮箱 _Email_](#%E9%82%AE%E7%AE%B1-email)
+		- [短信 _SMS_](#%E7%9F%AD%E4%BF%A1-sms)
 		- [钓鱼 _Phishing_](#%E9%92%93%E9%B1%BC-phishing)
 	- [移动端 _Mobile_](#%E7%A7%BB%E5%8A%A8%E7%AB%AF-mobile)
 - [漏洞研究 _Vulnerability Research_](#%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6-vulnerability-research)
@@ -180,7 +182,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - Virustotal: https://www.virustotal.com/
 - 腾讯哈勃分析系统: https://habo.qq.com/tool/index
-- 微步在线威胁情报: https://x.threatbook.cn/
+- 微步在线威胁情报: https://x.threatbook.com/
 - 奇安信威胁情报: https://ti.qianxin.com/
 - 360威胁情报: https://ti.360.net/
 - 网络安全威胁信息共享平台: https://share.anva.org.cn/web/publicity/listPhishing
@@ -198,9 +200,11 @@ Flask_Session_Decryptor: Flask session注入解密
 - 鹰图: https://hunter.qianxin.com/
 - 谛听: https://www.ditecting.com/
 - Quake: https://quake.360.cn/quake/
-- Wayback Machine: 网页历史缓存 https://archive.org/web
+- Censys: https://search.censys.io/
+- Netlas: https://app.netlas.io/domains/
+- Wayback Machine: 网页历史缓存 https://web.archive.org/
 - VisualPing: 网页变动监测 https://visualping.io/
-- Dark Web Exposure: https://immuniweb.com/radar/
+- Dark Web Exposure: https://www.immuniweb.com/darkweb/
 - SG TCP/IP 端口数据库: https://www.speedguide.net/ports.php
 - Google Hacking Database:
 	- https://www.exploit-db.com/google-hacking-database
@@ -231,10 +235,6 @@ Flask_Session_Decryptor: Flask session注入解密
 - Source code Search Engine:
 	- https://publicwww.com/
 	- https://searchcode.com/
-- RSS Feeds:
-	- https://github.com/zer0yu/CyberSecurityRSS
-	- https://github.com/zhengjim/Chinese-Security-RSS
-	- https://wechat2rss.xlab.app/posts/list/
 
 ### 攻防相关 _Offensive Security_
 
@@ -291,11 +291,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - Pentest cheatsheet: https://pentestbook.six2dez.com/
 - Programming/Toolkit/Command/OS/Shortcuts Cheatsheets:
 	- https://cheatsheets.zip/
-
-**If you want to improve your English language skills:**
-
-- https://www.grammarly.com/grammar-check
-- https://ludwig.guru/
+	- https://learnxinyminutes.com/
 
 ### 工具集 _Open-Source Toolkit_
 
@@ -307,32 +303,32 @@ Flask_Session_Decryptor: Flask session注入解密
 	- http://web.chacuo.net/formatsh
 	- https://beautifier.io/
 	- http://jsnice.org/
-- Online:
-	- 反弹 Shell: https://forum.ywhack.com/reverse-shell/
-	- 正则表达式: https://c.runoob.com/front-end/854/
-	- 接收验证码: https://www.supercloudsms.com/en/
-	- 临时邮箱: http://24mail.chacuo.net/
-	- 短链接生成: https://a.f8x.io/
-- Offline:
-	- 反弹 Shell: https://github.com/0dayCTF/reverse-shell-generator
-	- 文件下载: https://github.com/r0eXpeR/File-Download-Generator
+- Reverse Shell Generator:
+	- https://www.revshells.com/
+	- https://forum.ywhack.com/reverse-shell/
+	- https://tex2e.github.io/reverse-shell-generator/index.html
+	- https://github.com/0dayCTF/reverse-shell-generator
+- File Download Generator:
+	- https://github.com/r0eXpeR/File-Download-Generator
+- Shorten URLs: https://a.f8x.io/
 
 ## 信息收集 _Reconnaissance_
 
 ### 综合工具 _Nice Tools_
 
 - AlliN: https://github.com/P1-Team/AlliN
+- fscan: https://github.com/shadow1ng/fscan
+- TscanPlus: https://github.com/TideSec/TscanPlus
+- kscan: https://github.com/lcvvvv/kscan
 - Kunyu: https://github.com/knownsec/Kunyu
 - OneForAll: https://github.com/shmilylty/OneForAll
 - ShuiZe: https://github.com/0x727/ShuiZe_0x727
 - FofaX: https://github.com/xiecat/fofax
 - Fofa Viewer: https://github.com/wgpsec/fofa_viewer
 - Fofa GUI: https://github.com/bewhale/FOFA_GUI
-- kscan: https://github.com/lcvvvv/kscan
-- fscan: https://github.com/shadow1ng/fscan
 - ENScan_GO: https://github.com/wgpsec/ENScan_GO
 - Ladon: https://github.com/k8gege/Ladon
-- Amass: https://github.com/OWASP/Amass
+- Amass: https://github.com/owasp-amass/amass
 - hping3: 端口扫描 高速 发包量少 结果准确无蜜罐 https://github.com/antirez/hping
 
 ### IP/域名/子域名 _IP/Domain/Subdomain_
@@ -340,9 +336,8 @@ Flask_Session_Decryptor: Flask session注入解密
 - IP信息收集:
 	- https://www.ipuu.net/
 	- https://site.ip138.com/
-	- https://securitytrails.com/
 	- https://myip.ms/
-	- http://ipwhois.cnnic.net.cn
+	- https://ipwhois.cnnic.net.cn
 - 多个地点Ping服务器:
 	- https://ping.chinaz.com/
 	- https://www.host-tracker.com/
@@ -372,7 +367,6 @@ Flask_Session_Decryptor: Flask session注入解密
 - TLS证书查询:
 	- https://censys.io
 	- https://crt.sh
-	- https://developers.facebook.com/tools/ct
 
 ### 指纹识别 _Fingerprint_
 
@@ -383,10 +377,10 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/EdgeSecurityTeam/EHole
 	- https://github.com/0x727/ObserverWard
 	- https://github.com/TideSec/TideFinger
+	- https://github.com/TideSec/TideFinger_Go
 	- https://github.com/zhzyker/dismap
 	- https://www.webshell.cc/4697.html
 	- http://www.yunsee.cn/ online
-	- https://github.com/AliasIO/Wappalyzer chrome extension
 - Waf Checks:
 	- https://github.com/stamparm/identYwaf
 	- https://github.com/EnableSecurity/wafw00f
@@ -429,7 +423,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/insightglacier/Dictionary-Of-Pentesting
 	- https://github.com/TheKingOfDuck/fuzzDicts
 	- https://github.com/gh0stkey/Web-Fuzzing-Box
-	- https://github.com/ppbibo/PentesterSpecialDict
+	- https://github.com/a3vilc0de/PentesterSpecialDict
 	- https://github.com/Bo0oM/fuzz.txt
 	- https://github.com/assetnote/wordlists
 - Web fuzz wordlists:
@@ -473,11 +467,15 @@ Flask_Session_Decryptor: Flask session注入解密
 
 #### 凭据泄露 _Leaked Credentials_
 
-- https://haveibeenpwned.com
+- https://have-ibeenpwned.com/
 - https://breachdirectory.org/
 
 #### 邮箱 _Email_
 
+- Temporary Email:
+	- http://24mail.chacuo.net/
+	- https://www.guerrillamail.com/
+	- https://rootsh.com/
 - Snov.io: https://app.snov.io
 - Phonebook: also works on subdomains and urls https://phonebook.cz
 - Skymem: https://www.skymem.info
@@ -487,6 +485,18 @@ Flask_Session_Decryptor: Flask session注入解密
 - theHarvester: also works on subdomains https://github.com/laramies/theHarvester
 - Verify emails: https://tools.emailhippo.com/
 - Accounts registered by email: https://emailrep.io/
+
+#### 短信 _SMS_
+
+- SMS Online:
+	- https://www.supercloudsms.com/en/
+	- https://getfreesmsnumber.com/
+	- https://www.zusms.com/
+	- https://yunduanxin.net/
+	- https://www.free-sms-receive.com/
+	- https://receive-sms.cc/#google_vignette
+	- https://bestsms.xyz/
+	- https://smscodeonline.com/
 
 #### 钓鱼 _Phishing_
 
@@ -521,7 +531,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- Metarget: https://github.com/Metarget/metarget
 	- Attack Defense: https://attackdefense.pentesteracademy.com/listing?labtype=cloud-services&subtype=cloud-services-amazon-s3
 	- AWSGoat: https://github.com/ine-labs/AWSGoat
-	- TerraformGoat: https://github.com/HuoCorp/TerraformGoat
+	- TerraformGoat: https://github.com/HXSecurity/TerraformGoat
 	- Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
 	- CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
@@ -549,7 +559,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - Super Xray: Xray GUI启动器 https://github.com/4ra1n/super-xray
 - Vulmap: 漏洞扫描和验证工具 https://github.com/zhzyker/vulmap
 - Artillery: 插件化 JAVA 漏洞扫描器 https://github.com/Weik1/Artillery
-- Aazhen-v3.1: JavaFX图形化漏洞扫描工具 https://github.com/zangcc/Aazhen-v3.1
+- Aazhen-v3.1: JavaFX图形化漏洞扫描工具 https://github.com/zangcc/Aazhen-RexHa
 
 ### 反序列化 _Deserialization_
 
@@ -599,6 +609,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - MYExploit: https://github.com/achuna33/MYExploit
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
+- I-Wanna-Get-All: https://github.com/R4gd0ll/I-Wanna-Get-All
 
 ### 中间件/应用层 _Middleware/Application_
 
@@ -637,7 +648,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- jasypt decrypt: https://www.devglan.com/online-tools/jasypt-online-encryption-decryption
 - Heapdump:
 	- heapdump_tool: heapdump敏感信息查询工具 https://github.com/wyzxxz/heapdump_tool
-	- Memory Analyzer: HeapDump分析工具 https://www.eclipse.org/mat/previousReleases.php
+	- Memory Analyzer: HeapDump分析工具 https://eclipse.dev/mat/previousReleases.php
 	- JDumpSpider: HeapDump敏感信息提取工具 https://github.com/whwlsfb/JDumpSpider
 - Tomcat:
 	- CVE-2020-1938: https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi
@@ -700,7 +711,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/Dheerajmadhukar/4-ZERO-3
 	- https://github.com/devploit/nomore403
 - PayloadsAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings
-- java.lang.Runtime.exec() Payload: java Payload在线生成 https://www.bugku.net/runtime-exec-payloads/
+- java.lang.Runtime.exec() Payload: https://payloads.net/Runtime.exec/
 - PHP Generic Gadget Chains: PHP反序列化Payload https://github.com/ambionics/phpggc
 - PHPFuck: https://github.com/splitline/PHPFuck
 - JSFuck: http://www.jsfuck.com/
@@ -943,7 +954,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- 卡巴斯基: https://noransom.kaspersky.com/
 	- https://www.nomoreransom.org/zh/index.html
 	- https://id-ransomware.malwarehunterteam.com
-	- https://www.avast.com/zh-cn/ransomware-decryption-tool
+	- https://www.avast.com/ransomware-decryption-tools
 	- https://www.emsisoft.com/en/ransomware-decryption/
 	- Decryption-Tools: 勒索病毒解密工具收集项目 https://github.com/jiansiting/Decryption-Tools
 
@@ -976,7 +987,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### _AK/SK_
 
-- CF: 云环境利用框架 https://github.com/teamssix/cf
+- CF: 云环境利用框架 https://wiki.teamssix.com/cf/
 - aksk_tool: 三大云厂商+ucloud、AWS、京东云、七牛云 https://github.com/wyzxxz/aksk_tool
 - cloudTools: 云资产管理工具，三大云厂商+ucloud https://github.com/dark-kingA/cloudTools
 - kodo-browser: 七牛云对象存储官方客户端 https://github.com/qiniu/kodo-browser
@@ -1002,7 +1013,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### 小程序 _Mini Program_
 
-- wxappUnpacker: 小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker
+- ~~[wxappUnpacker: 小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker]~~
 - CrackMinApp: 反编译微信小程序 https://github.com/Cherrison/CrackMinApp
 - API-Explorer: 公众号/小程序/企业微信 ak/sk https://github.com/mrknow001/API-Explorer
 
@@ -1072,9 +1083,10 @@ Flask_Session_Decryptor: Flask session注入解密
 - Wappalyzer: 识别网站技术/框架/语言 https://www.wappalyzer.com/
 - EditThisCookie: 修改Cookie https://www.editthiscookie.com/
 - Disable JavaScript: 禁用JavaScript绕过弹窗 https://github.com/dpacassi/disable-javascript
-- Heimdallr: 被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/graynjo/Heimdallr
+- Heimdallr: 被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/Ghr07h/Heimdallr
 - anti-honeypot: 蜜罐识别 https://github.com/cnrstar/anti-honeypot
 - immersive-translate: 翻译插件 https://github.com/immersive-translate/immersive-translate/
+- relingo: 翻译插件 https://cn.relingo.net/en/
 - json-formatter: Json格式化插件 https://github.com/callumlocke/json-formatter
 - markdown-viewer: 在浏览器查看markdown文档 https://github.com/simov/markdown-viewer
 
