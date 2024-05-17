@@ -103,7 +103,8 @@
 
 ```
 DefaultCreds-Cheat-Sheet.csv
-HuaweiPassword-Cheat-Sheet .csv
+Huawei-iBMC-DefaultCreds.csv
+Huawei-Product-Cheat-Sheet.csv
 WeakPassword-Cheat-Sheet.csv
 安全厂商及官网链接速查.txt
 ```
@@ -177,6 +178,10 @@ Flask_Session_Decryptor: Flask session注入解密
 	- UUencode: http://web.chacuo.net/charsetuuencode
 	- Escape/Unescape: https://tool.chinaz.com/tools/escape.aspx
 	- HTML实体编码: https://zh.rakko.tools/tools/21/
+- Regular Expressions:
+	- https://regex101.com/
+	- https://github.com/VincentSit/ChinaMobilePhoneNumberRegex
+	- https://github.com/any86/any-rule
 
 ### 威胁情报 _Threat Intelligence_
 
@@ -249,6 +254,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://casvancooten.com/
 	- https://evasions.checkpoint.com/
 	- https://redteam.guide/docs/definitions
+	- https://github.com/HadessCS/Red-team-Interview-Questions
 - Blue Teaming and Defensive Security:
 	- https://github.com/Purp1eW0lf/Blue-Team-Notes
 - OPSEC:

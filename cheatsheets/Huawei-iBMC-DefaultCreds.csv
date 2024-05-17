@@ -1,0 +1,26 @@
+服务器名称,默认 BIOS 密码,默认 iBMC 管理帐户,默认 iBMC 管理密码
+5885H V5,Admin@9000,Administrator,Admin@9000
+2488H V5,Admin@9000,Administrator,Admin@9000
+2488 V5,Admin@9000,Administrator,Admin@9000
+2288 V5,Admin@9000,Administrator,Admin@9000
+1288X V5,Admin@9000,Administrator,Admin@9000
+1288H V5,Admin@9000,Administrator,Admin@9000
+2288H V5,Admin@9000,Administrator,Admin@9000
+RH1288 V3,Huawei12#$,root,Huawei12#$
+RH2288 V3,Huawei12#$,root,Huawei12#$
+RH2288H V3,Huawei12#$,root,Huawei12#$
+5288 V3,Huawei12#$,root,Huawei12#$
+RH5885 V3,Huawei12#$,root,Huawei12#$
+RH5885H V3,Huawei12#$,root,Huawei12#$
+RH8100 V3,Huawei12#$,root,Huawei12#$
+RH1288 V2,None,root,Huawei12#$ or root
+RH1288A V2,Huawei12#$,root,Huawei12#$
+RH2285 V2,None,root,Huawei12#$ or root
+RH2285H V2,None,root,Huawei12#$ or root
+RH2288 V2,None,root,Huawei12#$ or root
+RH2288A V2,Huawei12#$,root,Huawei12#$
+RH2288E V2,Huawei12#$,root,Huawei12#$
+RH2288H V2,None,root,Huawei12#$ or root
+RH2485 V2,Huawei12#$,root,Huawei12#$
+RH5885 V2(4S),Huawei5885 or uniBIOS123,root,Huawei12#$ or root
+RH5885 V2(8S),Huawei5885 or uniBIOS123,root,Huawei12#$ or root
