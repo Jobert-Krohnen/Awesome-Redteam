@@ -621,12 +621,15 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - Confluence:
 	- ConfluenceMemshell: https://github.com/Lotus6/ConfluenceMemshell
-	- OGNL Injection: https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL
+	- CVE-2022-26134 Memshell: https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL
+	- CVE-2023-22527 Memshell: https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL
 - Druid:
 	- DruidCrack: Druid 密文解密工具 https://github.com/rabbitmask/DruidCrack
 	- druid_sessions: Druid sessions 利用工具 https://github.com/yuyan-sec/druid_sessions
 - Fastjson:
 	- fastjson-exp: https://github.com/amaz1ngday/fastjson-exp
+- GitLab:
+	- CVE-2021-22205: https://github.com/Al1ex/CVE-2021-22205/
 - Nacos:
 	- NacosRce: Nacos Hessian 反序列化 https://github.com/c0olw/NacosRce/
 	- nacosleak: 获取 nacos 中配置文件信息 https://github.com/a1phaboy/nacosleak
@@ -669,6 +672,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- WeblogicScan: https://github.com/rabbitmask/WeblogicScan
 	- weblogicScanner: https://github.com/0xn0ne/weblogicScanner
 	- weblogic-framework: https://github.com/sv3nbeast/weblogic-framework
+	- CVE-2020-14882: https://github.com/zhzyker/exphub/blob/master/weblogic/cve-2020-14882_rce.py
 - WebSocket:
 	- wscat: https://github.com/websockets/wscat
 - vCenter:
@@ -751,6 +755,8 @@ Flask_Session_Decryptor: Flask session注入解密
 		- https://github.com/HyperSine/how-does-Xmanager-encrypt-password version<7.0
 		- https://github.com/RowTeam/SharpDecryptPwd decrypt locally
 		- https://github.com/JDArmy/SharpXDecrypt
+- Cracking:
+	- NetNTLMv1: https://ntlmv1.com/ online
 
 ### 后渗透 _Post Exploitation_
 
@@ -815,6 +821,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - Webshell Bypass:
 	- https://github.com/AabyssZG/WebShell-Bypass-Guide
 	- http://bypass.tidesec.com/web/
+	- https://github.com/cseroad/Webshell_Generate
 - Reverse Shell Management:
 	- https://github.com/WangYihang/Platypus
 	- https://github.com/calebstewart/pwncat python 3.9+
