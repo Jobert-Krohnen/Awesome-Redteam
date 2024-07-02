@@ -4,11 +4,10 @@
 
 ## _Roadmap_
 
-![](images/README/Awesome-Redteam-20240312%201.png)
+![](images/README/Awesome-Redteam-20240702.png)
 
 ## 目录 _Contents_
 
-- [目录 _Contents_](#%E7%9B%AE%E5%BD%95-contents)
 - [项目导航 _Project Navigation_](#%E9%A1%B9%E7%9B%AE%E5%AF%BC%E8%88%AA-project-navigation)
 	- [速查文档 _CheatSheets_](#%E9%80%9F%E6%9F%A5%E6%96%87%E6%A1%A3-cheatsheets)
 	- [一些代码 _Scripts_](#%E4%B8%80%E4%BA%9B%E4%BB%A3%E7%A0%81-scripts)
@@ -38,7 +37,7 @@
 		- [钓鱼 _Phishing_](#%E9%92%93%E9%B1%BC-phishing)
 	- [移动端 _Mobile_](#%E7%A7%BB%E5%8A%A8%E7%AB%AF-mobile)
 - [漏洞研究 _Vulnerability Research_](#%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6-vulnerability-research)
-	- [漏洞复现 _Reproduce_](#%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0-reproduce)
+	- [漏洞环境 _Vulnerable Environments_](#%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83-vulnerable-environments)
 	- [PoC _Proof of Concept_](#poc-proof-of-concept)
 - [漏洞利用 _Exploits_](#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8-exploits)
 	- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
@@ -60,6 +59,7 @@
 	- [权限维持 _Persistence_](#%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81-persistence)
 	- [免杀项目 _Defense Evasion_](#%E5%85%8D%E6%9D%80%E9%A1%B9%E7%9B%AE-defense-evasion)
 	- [内网穿透 _Proxy_](#%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F-proxy)
+	- [端口转发 _Port Forwarding_](#%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91-port-forwarding)
 	- [辅助工具 _Auxiliary Tools_](#%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7-auxiliary-tools)
 - [域渗透 _Active Directory / Kerberos_](#%E5%9F%9F%E6%B8%97%E9%80%8F-active-directory--kerberos)
 	- [开源资源 _Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-resources)
@@ -69,7 +69,7 @@
 	- [ADCS _Active Directory Certificate Services_](#adcs-active-directory-certificate-services)
 - [安全防护 _Defensive Security_](#%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4-defensive-security)
 	- [内存马查杀 _Memshell Dectect_](#%E5%86%85%E5%AD%98%E9%A9%AC%E6%9F%A5%E6%9D%80-memshell-dectect)
-	- [Webshell查杀 _Webshell Dectect_](#webshell%E6%9F%A5%E6%9D%80-webshell-dectect)
+	- [Webshell 查杀 _Webshell Dectect_](#webshell-%E6%9F%A5%E6%9D%80-webshell-dectect)
 	- [攻击研判 _Blue Teaming_](#%E6%94%BB%E5%87%BB%E7%A0%94%E5%88%A4-blue-teaming)
 	- [基线加固 _Enforcement_](#%E5%9F%BA%E7%BA%BF%E5%8A%A0%E5%9B%BA-enforcement)
 	- [勒索病毒 _Ransomware_](#%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92-ransomware)
@@ -77,9 +77,9 @@
 - [云安全 _Cloud Security_](#%E4%BA%91%E5%AE%89%E5%85%A8-cloud-security)
 	- [开源资源 _Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-resources)
 	- [云安全矩阵 _Cloud Matrices_](#%E4%BA%91%E5%AE%89%E5%85%A8%E7%9F%A9%E9%98%B5-cloud-matrices)
-	- [_AK/SK_](#aksk)
-	- [_Docker_](#docker)
-	- [_Kubernetes_](#kubernetes)
+	- [云漏洞环境 _Vulnerable Cloud Environments_](#%E4%BA%91%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83-vulnerable-cloud-environments)
+	- [云服务 _Cloud Services_](#%E4%BA%91%E6%9C%8D%E5%8A%A1-cloud-services)
+	- [云原生 _Cloud Native_](#%E4%BA%91%E5%8E%9F%E7%94%9F-cloud-native)
 - [移动端安全 _Mobile Security_](#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%89%E5%85%A8-mobile-security)
 	- [小程序 _Mini Program_](#%E5%B0%8F%E7%A8%8B%E5%BA%8F-mini-program)
 	- [_APK_](#apk)
@@ -90,10 +90,10 @@
 	- [_Chrome Extensions_](#chrome-extensions)
 	- [_Infrastructure_](#infrastructure)
 - [提高生产力的使用姿势](#%E6%8F%90%E9%AB%98%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF)
-	- [如何通过.bat使用alias](#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87bat%E4%BD%BF%E7%94%A8alias)
-	- [如何通过.bat激活conda并运行py](#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87bat%E6%BF%80%E6%B4%BBconda%E5%B9%B6%E8%BF%90%E8%A1%8Cpy)
-	- [如何配合tabby实现高效操作](#%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88tabby%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E6%93%8D%E4%BD%9C)
-	- [如何解决cmd中文乱码](#%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3cmd%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81)
+	- [如何通过.bat 使用 alias](#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87bat-%E4%BD%BF%E7%94%A8-alias)
+	- [如何通过.bat 激活 conda 并运行 py](#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87bat-%E6%BF%80%E6%B4%BB-conda-%E5%B9%B6%E8%BF%90%E8%A1%8C-py)
+	- [如何配合 tabby 实现高效操作](#%E5%A6%82%E4%BD%95%E9%85%8D%E5%90%88-tabby-%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E6%93%8D%E4%BD%9C)
+	- [如何解决 cmd 中文乱码](#%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3-cmd-%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81)
 
 ## 项目导航 _Project Navigation_
 
@@ -305,7 +305,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://forum.ywhack.com/bountytips.php?tools
 	- https://github.com/knownsec/404StarLink
 	- https://pentest-tools.com/
-- Beautifier：
+- Beautifier:
 	- http://web.chacuo.net/formatsh
 	- https://beautifier.io/
 	- http://jsnice.org/
@@ -514,7 +514,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ## 漏洞研究 _Vulnerability Research_
 
-### 漏洞复现 _Reproduce_
+### 漏洞环境 _Vulnerable Environments_
 
 - Basic:
 	- Sqli-labs: https://github.com/Audi-1/sqli-labs
@@ -531,13 +531,6 @@ Flask_Session_Decryptor: Flask session注入解密
 	- Vulfocus: https://github.com/fofapro/vulfocus
 - IoT:
 	- IoT-vulhub: https://github.com/firmianay/IoT-vulhub
-- Cloud:
-	- Metarget: https://github.com/Metarget/metarget
-	- Attack Defense: https://attackdefense.pentesteracademy.com/listing?labtype=cloud-services&subtype=cloud-services-amazon-s3
-	- AWSGoat: https://github.com/ine-labs/AWSGoat
-	- TerraformGoat: https://github.com/HXSecurity/TerraformGoat
-	- Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
-	- CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 - Others:
 	- FastJsonParty: https://github.com/lemono0/FastJsonParty
 
@@ -992,6 +985,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - TeamsSix 云安全资源: https://github.com/teamssix/awesome-cloud-security
 - 云安全知识文库: https://wiki.teamssix.com/
+- HackTricks Cloud: https://cloud.hacktricks.xyz/
 - lzCloudSecurity: 云安全攻防入门
   - Github: https://github.com/EvilAnne/lzCloudSecurity
   - Gitbook: https://lzcloudsecurity.gitbook.io/yun-an-quan-gong-fang-ru-men/
@@ -1006,31 +1000,60 @@ Flask_Session_Decryptor: Flask session注入解密
 - 火线安全 - 云服务攻防矩阵: https://cloudsec.huoxian.cn/
 - 腾讯云鼎实验室 - 云安全攻防矩阵: https://cloudsec.tencent.com/home/
 
-### _AK/SK_
+### 云漏洞环境 _Vulnerable Cloud Environments_
 
-- CF: 云环境利用框架 https://wiki.teamssix.com/cf/
-- aksk_tool: 三大云厂商 +ucloud、AWS、京东云、七牛云 https://github.com/wyzxxz/aksk_tool
-- cloudTools: 云资产管理工具，三大云厂商 +ucloud https://github.com/dark-kingA/cloudTools
-- kodo-browser: 七牛云对象存储官方客户端 https://github.com/qiniu/kodo-browser
-- XstorBrowser: 天翼云对象存储官方客户端 https://www.ctyun.cn/document/10306929/10132519
-- oss-browser: 阿里云 OSS 官方客户端 https://github.com/aliyun/oss-browser
-- cosbrowser: 腾讯云 COS 官方客户端 https://github.com/TencentCloud/cosbrowser
-- cloudSec: 云平台 AK/SK-WEB 利用工具，三大云厂商（阿里云接管 k8s）、AWS、七牛云 https://github.com/libaibaia/cloudSec
-- aliyun-accesskey-Tools: 阿里云 GUI https://github.com/mrknow001/aliyun-accesskey-Tools
-- alicloud-tools: 阿里云 命令行 https://github.com/iiiusky/alicloud-tools
-- 行云管家: 云存储图形化管理平台 https://yun.cloudbility.com/
+- Metarget: https://github.com/Metarget/metarget
+- TerraformGoat: https://github.com/HXSecurity/TerraformGoat
+- Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
+- Attack Defense: https://attackdefense.pentesteracademy.com/listing?labtype=cloud-services&subtype=cloud-services-amazon-s3
+- AWSGoat: https://github.com/ine-labs/AWSGoat
+- CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
-### _Docker_
+### 云服务 _Cloud Services_
 
-- CDK: 容器渗透 https://github.com/cdk-team/CDK
-- veinmind-tools: 容器安全工具集 https://github.com/chaitin/veinmind-tools
-- Awesome Container Escape: 容器逃逸 https://github.com/brant-ruan/awesome-container-escape
-- etcdctl: https://github.com/etcd-io/etcd
+- 辅助工具 :
+	- 行云管家: 云存储图形化管理平台 https://yun.cloudbility.com/
+	- 阿里云官方 OSS 管理工具: https://github.com/aliyun/aliyun-cli
+	- 阿里云官方 CLI 工具: https://github.com/aliyun/oss-browser
+	- 腾讯云官方 COS 管理工具: https://github.com/TencentCloud/cosbrowser
+	- 腾讯云官方 CLI 工具: https://github.com/TencentCloud/tencentcloud-cli
+	- 华为云 OBS 官方管理工具: https://support.huaweicloud.com/browsertg-obs/obs_03_1003.html
+	- 天翼云对象存储 OBS 管理工具: https://www.ctyun.cn/document/10000101/10006768
+	- 天翼云媒体存储 XstorBrowser 管理工具: https://www.ctyun.cn/document/10306929/10132519
+	- 青云官方 CLI 工具: https://docsv4.qingcloud.com/user_guide/development_docs/cli/install/install/
+	- 七牛云对象存储 Kodo 管理工具: https://github.com/qiniu/kodo-browser
+- AK/SK 利用:
+	- trufflehog: AK/SK 敏感信息收集 https://github.com/trufflesecurity/trufflehog
+	- CF: 云环境利用框架 https://wiki.teamssix.com/cf/
+	- CloudExplorer-Lite: 轻量级云管平台 https://github.com/CloudExplorer-Dev/CloudExplorer-Lite
+	- aliyun-accesskey-Tools: 阿里云 accesskey 利用工具 https://github.com/mrknow001/aliyun-accesskey-Tools
+	- alicloud-tools: 阿里云 ECS、策略组辅助小工具 https://github.com/iiiusky/alicloud-tools
+	- AliyunAccessKeyTools: 阿里云 AccessKey 泄漏利用工具 https://github.com/NS-Sp4ce/AliyunAccessKeyTools
+	- Tencent_Yun_tools: 腾讯云 AccessKey 利用工具 https://github.com/freeFV/Tencent_Yun_tools
+	- cloudSec: 云平台 AK/SK-WEB 利用工具，三大云厂商（阿里云接管 k8s）、AWS、七牛云 https://github.com/libaibaia/cloudSec
+	- aksk_tool: 阿里云/腾讯云/华为云/AWS/UCLOUD/京东云/百度云/七牛云 https://github.com/wyzxxz/aksk_tool
+	- Cloud-Bucket-Leak-Detection-Tools: 六大云存储泄露利用检测工具 https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools
+	- cloudTools: 云资产管理工具，三大云厂商 +ucloud https://github.com/dark-kingA/cloudTools
 
-### _Kubernetes_
+### 云原生 _Cloud Native_
 
-- KubeHound: 识别 Kubernetes 集群攻击路径 https://github.com/DataDog/KubeHound
-- kubectl: https://kubernetes.io/docs/tasks/tools/
+- 综合工具:
+	- HummerRisk: 云原生安全平台 https://github.com/HummerRisk/HummerRisk
+- Docker:
+	- dive: Exploring each layer in a docker image https://github.com/wagoodman/dive
+	- Docker Bench for Security: Docker 容器安全检查 https://github.com/docker/docker-bench-security
+	- dagda: Docker 静态分析 https://github.com/eliasgranderubio/dagda/
+	- Container Escape Check: 容器逃逸检测 https://github.com/teamssix/container-escape-check
+	- Awesome Container Escape: 容器逃逸 https://github.com/brant-ruan/awesome-container-escape
+	- CDK: 容器渗透工具集 https://github.com/cdk-team/CDK
+	- veinmind-tools: 容器安全工具集 https://github.com/chaitin/veinmind-tools
+- Kubernetes:
+	- kubectl: https://kubernetes.io/docs/tasks/tools/
+	- etcdctl: https://github.com/etcd-io/etcd
+	- k9s: Kubernetes CLI https://github.com/derailed/k9s
+	- Red Team K8S Adversary Emulation Based on kubectl: https://github.com/lightspin-tech/red-kube
+	- KubeHound: 识别 Kubernetes 集群攻击路径 https://github.com/DataDog/KubeHound
+	- peirates: Kubernetes 渗透工具集 https://github.com/inguardians/peirates
 
 ## 移动端安全 _Mobile Security_
 
@@ -1163,7 +1186,7 @@ pause
 	- 存储输出日志
 	- ...
 
-![](images/image-20231122-1.png)
+![](images/README/image-20231122-1.png)
 
 ### 如何解决 cmd 中文乱码
 
