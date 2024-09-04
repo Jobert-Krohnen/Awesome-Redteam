@@ -604,11 +604,13 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### _CMS/OA_
 
-- 通达 OA: https://github.com/Fu5r0dah/TongdaScan_go
-- MYExploit: https://github.com/achuna33/MYExploit
+- TongdaScan_go https://github.com/Fu5r0dah/TongdaScan_go
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
-- I-Wanna-Get-All: https://github.com/R4gd0ll/I-Wanna-Get-All
+- ncDecode: 用友 nc 解密 https://github.com/1amfine2333/ncDecode
+- PassDecode-jar: 帆软/致远解密 https://github.com/Rvn0xsy/PassDecode-jar
+- ezOFFICE_Decrypt: 万户解密 https://github.com/wafinfo/ezOFFICE_Decrypt
+- LandrayDES: 蓝凌 OA 解密 https://github.com/zhutougg/LandrayDES
 
 ### 中间件/应用层 _Middleware/Application_
 
@@ -756,6 +758,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - NICE TOOLS:
 	- https://github.com/rapid7/metasploit-framework
 	- https://github.com/byt3bl33d3r/CrackMapExec
+	- https://github.com/Pennyw0rth/NetExec
 	- https://github.com/fortra/impacket
 	- https://github.com/XiaoliChan/wmiexec-Pro
 	- https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
@@ -884,13 +887,16 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### 域内已知漏洞 _Known Vulnerabilities_
 
-- noPac: CVE-2021-42278 / CVE-2021-42287 https://github.com/Ridter/noPac
+- noPac: CVE-2021-42278 / CVE-2021-42287
+	- https://github.com/Ridter/noPac
+	- https://github.com/Amulab/advul
 - Zerologon CVE-2020-1472:
 	- https://github.com/SecuraBV/CVE-2020-1472/blob/master/zerologon_tester.py
 	- https://github.com/XiaoliChan/zerologon-Shot
 	- https://github.com/dirkjanm/CVE-2020-1472
-	- https://github.com/Potato-py/Potato/tree/03c3551e4770db440b27b0a48fc02b0a38a1cf04/exp/cve/CVE-2020-1472 reset password
-	- https://github.com/risksense/zerologon reset password
+	- https://github.com/Potato-py/Potato/tree/03c3551e4770db440b27b0a48fc02b0a38a1cf04/exp/cve/CVE-2020-1472
+	- https://github.com/risksense/zerologon
+	- https://github.com/StarfireLab/AutoZerologon
 - Exchange ProxyLogon & ProxyShell:
 	- https://github.com/dirkjanm/privexchange/
 	- https://github.com/Jumbo-WJB/PTH_Exchange
@@ -911,6 +917,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- ShadowCoerce: https://github.com/ShutdownRepo/ShadowCoerce
 	- PrivExchange: https://github.com/dirkjanm/privexchange/
 	- Coercer: https://github.com/p0dalirius/Coercer
+	- cannon: https://github.com/Amulab/cannon
 
 ### ADCS _Active Directory Certificate Services_
 
@@ -1123,11 +1130,13 @@ Flask_Session_Decryptor: Flask session注入解密
 ### _Chrome Extensions_
 
 - Proxy SwitchyOmega: 快速切换代理 https://github.com/FelisCatus/SwitchyOmega
+- ZeroOmega: Manifest v3 下的 Proxy SwitchyOmega 替代 https://github.com/zero-peak/ZeroOmega
 - serp-analyzer: 识别域名/IP 信息 https://leadscloud.github.io/serp-analyzer/
 - FindSomething: 在网页的源代码或 js 中寻找有用信息 https://github.com/ResidualLaugh/FindSomething
 - Hack Bar: 渗透神器 No.1 https://github.com/0140454/hackbar
 - Wappalyzer: 识别网站技术/框架/语言 https://www.wappalyzer.com/
 - EditThisCookie: 修改 Cookie https://www.editthiscookie.com/
+- Cookie-Editor: 修改 Cookie https://github.com/Moustachauve/cookie-editor
 - Disable JavaScript: 禁用 JavaScript 绕过弹窗 https://github.com/dpacassi/disable-javascript
 - Heimdallr: 被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗 https://github.com/Ghr07h/Heimdallr
 - anti-honeypot: 蜜罐识别 https://github.com/cnrstar/anti-honeypot
