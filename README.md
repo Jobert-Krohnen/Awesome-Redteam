@@ -57,7 +57,7 @@
 	- [后渗透 _Post Exploitation_](#%E5%90%8E%E6%B8%97%E9%80%8F-post-exploitation)
 	- [权限提升 _Privilege Escalation_](#%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87-privilege-escalation)
 	- [权限维持 _Persistence_](#%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81-persistence)
-	- [免杀项目 _Defense Evasion_](#%E5%85%8D%E6%9D%80%E9%A1%B9%E7%9B%AE-defense-evasion)
+	- [防御规避 _Defense Evasion_](#%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF-defense-evasion)
 	- [内网穿透 _Proxy_](#%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F-proxy)
 	- [端口转发 _Port Forwarding_](#%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91-port-forwarding)
 	- [辅助工具 _Auxiliary Tools_](#%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7-auxiliary-tools)
@@ -822,15 +822,19 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/WangYihang/Platypus
 	- https://github.com/calebstewart/pwncat python 3.9+
 
-### 免杀项目 _Defense Evasion_
+### 防御规避 _Defense Evasion_
 
-- bypassAV: 免杀 shellcode 加载器 过火绒不过 360 https://github.com/pureqh/bypassAV
-- GolangBypassAV: https://github.com/safe6Sec/GolangBypassAV
-- BypassAntiVirus: 远控免杀系列文章及配套工具 https://github.com/TideSec/BypassAntiVirus
-- AV_Evasion_Tool: 掩日 - 适用于红队的综合免杀工具 https://github.com/1y0n/AV_Evasion_Tool
-- shellcodeloader: Windows 平台的 shellcode 免杀加载器 https://github.com/knownsec/shellcodeloader
-- 杀软比对 1: tasklist/systeminfo https://www.shentoushi.top/av/av.php
-- 杀软比对 2: tasklist /svc && ps -aux https://tasklist.ffffffff0x.com/
+- Linux：
+	- libprocesshider: Hide a process under Linux using the ld preloader https://github.com/gianlucaborello/libprocesshider
+	- Linux Kernel Hacking: https://github.com/xcellerator/linux_kernel_hacking
+	- tasklist /svc && ps -aux: https://tasklist.ffffffff0x.com/
+- Windows:
+	- bypassAV: https://github.com/pureqh/bypassAV
+	- GolangBypassAV: https://github.com/safe6Sec/GolangBypassAV
+	- BypassAntiVirus: https://github.com/TideSec/BypassAntiVirus
+	- AV_Evasion_Tool: https://github.com/1y0n/AV_Evasion_Tool
+	- shellcodeloader: https://github.com/knownsec/shellcodeloader
+	- tasklist/systeminfo: https://www.shentoushi.top/av/av.php
 
 ### 内网穿透 _Proxy_
 
