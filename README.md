@@ -607,6 +607,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - TongdaScan_go https://github.com/Fu5r0dah/TongdaScan_go
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
+- DecryptTools: 22种加解密 https://github.com/wafinfo/DecryptTools
 - ncDecode: 用友 nc 解密 https://github.com/1amfine2333/ncDecode
 - PassDecode-jar: 帆软/致远解密 https://github.com/Rvn0xsy/PassDecode-jar
 - ezOFFICE_Decrypt: 万户解密 https://github.com/wafinfo/ezOFFICE_Decrypt
