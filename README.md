@@ -493,6 +493,7 @@ Flask_Session_Decryptor: Flask session注入解密
 #### 短信 _SMS_
 
 - SMS Online:
+	- https://sms-activate.io 👍 more than 180 countries for sale
 	- https://www.supercloudsms.com/en/
 	- https://getfreesmsnumber.com/
 	- https://www.zusms.com/
@@ -558,7 +559,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - https://github.com/chaitin/xray
 - https://github.com/zhzyker/vulmap
 - https://github.com/zan8in/afrog
-- https://github.com/ExpLangcn/NucleiTP
+- https://github.com/projectdiscovery/nuclei
 
 ### 反序列化 _Deserialization_
 
@@ -592,7 +593,11 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/yuyan-sec/RedisEXP
 	- https://github.com/r35tart/RedisWriteFile
 - MDUT: Multiple Database Utilization Tools https://github.com/SafeGroceryStore/MDUT
-- odat: Oracle RCE https://github.com/quentinhardy/odat
+- Oracle:
+	- odat: https://github.com/quentinhardy/odat RCE
+	- sqlplus: https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html xxx as sysdba
+- MSSQL:
+	- https://github.com/Ridter/PySQLTools
 
 ### 信息泄露 _Information Disclosure_
 
@@ -607,7 +612,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - TongdaScan_go https://github.com/Fu5r0dah/TongdaScan_go
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
-- DecryptTools: 22种加解密 https://github.com/wafinfo/DecryptTools
+- DecryptTools: 22 种加解密 https://github.com/wafinfo/DecryptTools
 - ncDecode: 用友 nc 解密 https://github.com/1amfine2333/ncDecode
 - PassDecode-jar: 帆软/致远解密 https://github.com/Rvn0xsy/PassDecode-jar
 - ezOFFICE_Decrypt: 万户解密 https://github.com/wafinfo/ezOFFICE_Decrypt
@@ -723,7 +728,9 @@ Flask_Session_Decryptor: Flask session注入解密
 - PHPFuck: https://github.com/splitline/PHPFuck
 - JSFuck: http://www.jsfuck.com/
 - JavaScript Deobfuscator and Unpacker: https://lelinhtinh.github.io/de4js/
-- Gopherus: SSRF 生成 gopher 链接 https://github.com/tarunkant/Gopherus python2
+- Gopherus:
+	- https://github.com/tarunkant/Gopherus py2
+	- https://github.com/Esonhugh/Gopherus3 py3
 - CVE-2021-44228-PoC-log4j-bypass-words: https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words
 
 ## 内网渗透 _Red Teaming_
@@ -746,6 +753,8 @@ Flask_Session_Decryptor: Flask session注入解密
 	- navicat: https://github.com/Zhuoyuan1/navicat_password_decrypt
 	- navicat: https://github.com/HyperSine/how-does-navicat-encrypt-password
 	- sunflower: https://github.com/wafinfo/Sunflower_get_Password
+	- FindToDeskPass: https://github.com/yangliukk/FindToDeskPass
+	- sundeskQ: sunflower & todesk https://github.com/milu001/sundeskQ
 	- securreCRT: https://github.com/depau/shcrt
 	- xshell:
 		- https://github.com/HyperSine/how-does-Xmanager-encrypt-password version<7.0
@@ -767,6 +776,7 @@ Flask_Session_Decryptor: Flask session注入解密
 	- https://github.com/Kevin-Robertson/Powermad
 	- https://github.com/PowerShellMafia/PowerSploit
 	- https://github.com/k8gege/Ladon
+	- https://github.com/samratashok/nishang for powershell
 - netspy: 快速探测内网可达网段 https://github.com/shmilylty/netspy
 - LOLBAS: Windows 二进制文件库 https://github.com/LOLBAS-Project/LOLBAS
 - GTFOBins: Unix 二进制文件库 https://gtfobins.github.io/
@@ -1074,6 +1084,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - ~~[wxappUnpacker: 小程序解包 https://github.com/xuedingmiaojun/wxappUnpacker]~~
 - CrackMinApp: 反编译微信小程序 https://github.com/Cherrison/CrackMinApp
 - API-Explorer: 公众号/小程序/企业微信 ak/sk https://github.com/mrknow001/API-Explorer
+- e0e1-wx: 微信小程序辅助渗透 https://github.com/eeeeeeeeee-code/e0e1-wx
 
 ### _APK_
 
@@ -1123,6 +1134,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - oh my zsh: 命令行工具集 https://github.com/ohmyzsh/ohmyzsh
 - clink: cmd.exe 加强版补全、历史记录和行编辑 https://github.com/chrisant996/clink
 - tabby: 高度可配置终端 https://github.com/Eugeny/tabby
+- warp: 现代终端 only for mac https://github.com/warpdotdev/Warp
 - anew: 命令行工具 文件合并去重 https://github.com/tomnomnom/anew
 - The art of command line: 快速掌握命令行 https://github.com/jlevy/the-art-of-command-line
 - Linux 命令行提示工具:
@@ -1156,53 +1168,81 @@ Flask_Session_Decryptor: Flask session注入解密
 - cloudreve: 私有云盘部署 https://github.com/cloudreve/Cloudreve
 - updog: uploading and downloading via HTTP/S 文件传输 https://github.com/sc0tfree/updog
 
+### _LLM_
+
+#### 开源资源 _Open-Source Resources_
+
+- https://github.com/Hannibal046/Awesome-LLM
+- https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
+
+#### 提示词 _Prompts_
+
+- https://github.com/f/awesome-chatgpt-prompts
+- https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+
+#### 部署 _Deployment_
+
+- huggingface: https://huggingface.co/ 大型语言模型下载（AI 界 Github ）
+- ollama: https://github.com/ollama/ollama 启动并运行大型语言模型
+- open-webui: https://github.com/open-webui/open-webui 离线 WebUI
+- enchanted: https://github.com/AugustDev/enchanted 将私有模型部署为应用程序
+
+如果你想通过 ollama 在**本地**快速部署 LLM，可以参考这套技术栈：
+
+- 运行大型语言模型：ollama
+- 运行大型语言模型并部署 WebUI：ollama + open-webui
+- 运行大型语言模型并部署应用程序：ollama + enchanted
+- 运行大型语言模型并与本地编辑器集成（例如 Obsidian）：ollama + copilot（Obsidian 插件）
+- 运行大型语言模型并与本地代码编辑器集成（例如 Vscode）： ollama + continue（Vscode 插件）
+- ...
+
+_to be continued..._
+
 ## 提高生产力的使用姿势
 
-### 如何通过.bat 使用 alias
+### 如何通过 .bat 使用 alias
 
-- 创建 alias.bat，实现查看 md 文档、运行 exe 程序、激活 conda 环境等功能。文件内容示例:
+创建 alias.bat，激活 conda 虚拟环境，在隔离环境下运行程序或工具。双击 alias.bat，重启 cmd，配置生效。
 
 ```
 @echo off
-: : Tips
-@DOSKEY httpcode=type "D: \HackTools\Tips\http_status_code.md"
+:: Software
+@DOSKEY ida64=activate base$t"D:\CTFTools\Cracking\IDA_7.7\ida64.exe"
 
-: : Software
-@DOSKEY ida64=activate base$t"D: \Software\CTFTools\Cracking\IDA_7.7\ida64.exe"
-
-: : Tools
-@DOSKEY fscan=cd /d D: \Software\HackTools\fscan$tactivate security$tdir
+:: Tools
+@DOSKEY fscan=cd /d D:\Software\HackTools\fscan$tactivate security$tdir
 ```
 
-- 注册表打开 `计算机\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`。
-- 创建字符串值 `autorun`，赋值为 alias.bat 所在位置，例如 `D: \Software\alias.bat`。
-- 双击 alias.bat 运行，重启 cmd。
+将 alias.bat 配置为开机自启动：
+
+- 注册表进入 `计算机\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`；
+- 创建字符串值 `autorun`，赋值为 alias.bat 所在位置，例如 `D: \Software\alias.bat`；
+- 重启系统，配置生效。
 
 ### 如何通过.bat 激活 conda 并运行 py
 
-- run.bat
+创建 run.bat，激活 conda 环境并运行 python 程序：
 
 ```
-call D: \YOUR_PATH\Anaconda\Scripts\activate.bat D: \YOUR_PATH\Anaconda\
+call D:\YOUR_PATH\Anaconda\Scripts\activate.bat D:\YOUR_PATH\Anaconda\
 call conda activate YOUR_ENV
-cd D: \YOUR_WORKDIR
+cd D:\YOUR_WORKDIR
 python YOUR_PYTHON_FILE.py
 pause
 ```
 
-### 如何配合 tabby 实现高效操作
+### 如何优化原生终端
 
-- 安装 tabby: https://github.com/Eugeny/tabby
-- 可以通过 tabby 实现自定义 shell 配置，包括但不限于:
-	- vps ssh/ftp/sftp
-	- 自动补全命令（clink）
-	- 快速打开工作区
-	- 存储输出日志
-	- ...
+Windows 通过 tabby + clink 优化原生终端，实现命令自动补全、vps ssh/ftp/sftp、输出日志记录等功能：
 
-![](images/README/image-20231122-1.png)
+- tabby: https://github.com/Eugeny/tabby
+- clink: https://github.com/chrisant996/clink
 
-### 如何解决 cmd 中文乱码
+MacOS 通过 warp + ohmyzsh 优化原生终端，warp 自带命令自动补全，引入“块”概念，提供了更现代化的编程体验（Modern UX and Text Editing）：
 
-- 注册表打开 `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor`。
-- 创建字符串值 `autorun`，赋值为 `chcp 65001`。
+- warp: https://github.com/warpdotdev/Warp
+- ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
+
+### 如何解决终端中文乱码
+
+注册表进入 `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor`，创建字符串值 `autorun`，赋值为 `chcp 65001`。
